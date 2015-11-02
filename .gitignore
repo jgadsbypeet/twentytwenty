@@ -2,3 +2,5 @@
 .sass-cache/*
 components/*
 *.old
+
+twentytwenty/
