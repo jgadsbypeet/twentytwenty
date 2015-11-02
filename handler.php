@@ -90,7 +90,7 @@ if ($uploadOk == 0) {
 }
 ?>
       <div class="large-12 columns">
-        <div class="twentytwenty-container">
+        <div class="twentytwenty-container">fff
           <img src="<?php echo $target_file ?>" />
           <img src="<?php echo $target_file2 ?>" />
         </div>
