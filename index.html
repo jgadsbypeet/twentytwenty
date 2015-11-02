@@ -24,43 +24,20 @@
     </div>
     
     <div class="row" style="margin-top: 2em; margin-bottom: 2em;">
-      <div class="large-4 columns">
-        <h3>Vertical Orientation</h3>
-        <p>Demonstrates sliding up and down which i don't think is as good.</p>
-      </div>
-      <div class="large-8 columns">
+      <div class="large-12 columns">
         <div class="twentytwenty-container" data-orientation="vertical">
-          <img src="img/1_1.jpg" />
-          <img src="img/1_2.jpg" />
+          <img src="img/0381e4c5745c498e93104d2990e2b323.png" />
+          <img src="img/lump_overhead.jpg" />
         </div>
       </div>
     </div>
 
-    <div class="row" style="margin-bottom: 2em;">
-      <div class="large-4 columns">
-        <h3>Side by side</h3>
-        <p>Using multiple comparisons at once.</p>
-      </div>
-      <div class="large-4 columns">
-        <div class="twentytwenty-container">
-          <img src="img/2_1.jpg" />
-          <img src="img/2_2.jpg" />
-        </div>
-      </div>
-      <div class="large-4 columns">
-        <div class="twentytwenty-container">
-          <img src="img/3_1.jpg" />
-          <img src="img/3_2.jpg" />
-        </div>
-      </div>
-    </div>
-    
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script src="js/jquery.event.move.js"></script>
     <script src="js/jquery.twentytwenty.js"></script>
     <script>
     $(window).load(function(){
-      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.8});
       $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
     });
     </script>
