@@ -83,7 +83,7 @@ if ($uploadOk == 0) {
 // if everything is ok, try to upload file
 } else {
     if (move_uploaded_file($_FILES["fileToUpload2"]["tmp_name"], $target_file2)) {
-        echo "The file ". basename( $_FILES["fileToUpload2"]["name"]). " has been uploaded.";
+        echo "";
     } else {
         echo "Sorry, there was an error uploading your file.";
     }
